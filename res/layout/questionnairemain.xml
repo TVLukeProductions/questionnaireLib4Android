@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                 android:orientation="vertical"  >
+
+                <TextView
+                    android:id="@+id/questionnaireTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Title of the Questionnaire"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                
+            	<TextView
+           			 android:id="@+id/questionnaireSubTitle"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="SubTitle of the Questionnaire"
+            		android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            	<LinearLayout
+            	    android:id="@+id/linearLayout2"
+            	    android:layout_width="fill_parent"
+            	    android:layout_height="wrap_content" >
+
+            	    <LinearLayout
+            	        android:id="@+id/linearLayout3"
+            	        android:layout_width="wrap_content"
+            	        android:layout_height="fill_parent"
+            	        android:layout_weight="0.50"
+            	        android:orientation="vertical" >
+
+            	        <TextView
+            	            android:id="@+id/investiagorName"
+            	            android:layout_width="wrap_content"
+            	            android:layout_height="wrap_content"
+            	            android:text="InvestigatorName"
+            	            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            	        <TextView
+            	            android:id="@+id/investiagorOrganisation"
+            	            android:layout_width="wrap_content"
+            	            android:layout_height="wrap_content"
+            	            android:text="organisation"
+            	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            	        <TextView
+            	            android:id="@+id/investiagorStreet"
+            	            android:layout_width="wrap_content"
+            	            android:layout_height="wrap_content"
+            	            android:text="street"
+            	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            	        <TextView
+            	            android:id="@+id/investiagorPostal"
+            	            android:layout_width="wrap_content"
+            	            android:layout_height="wrap_content"
+            	            android:text="postalcode, city suburb"
+            	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            	        <TextView
+            	            android:id="@+id/investiagorCountry"
+            	            android:layout_width="wrap_content"
+            	            android:layout_height="wrap_content"
+            	            android:text="Country"
+            	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            	        <TextView
+            	            android:id="@+id/investiagorPhone"
+            	            android:layout_width="wrap_content"
+            	            android:layout_height="wrap_content"
+            	            android:text="phone"
+            	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            	        <TextView
+            	            android:id="@+id/investiagorFax"
+            	            android:layout_width="wrap_content"
+            	            android:layout_height="wrap_content"
+            	            android:text="Fax"
+            	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            	        <TextView
+            	            android:id="@+id/investiagorEmail"
+            	            android:layout_width="wrap_content"
+            	            android:layout_height="wrap_content"
+            	            android:text="email"
+            	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            	        <TextView
+            	            android:id="@+id/investiagorWebsite"
+            	            android:layout_width="wrap_content"
+            	            android:layout_height="wrap_content"
+            	            android:text="Website"
+            	            android:textAppearance="?android:attr/textAppearanceSmall" />
+            	    </LinearLayout>
+
+            	    <LinearLayout
+            	        android:id="@+id/linearLayout4"
+            	        android:layout_width="wrap_content"
+            	        android:layout_height="fill_parent"
+            	        android:layout_weight="0.50"
+            	        android:orientation="vertical" >
+
+            	        <TextView
+            	            android:id="@+id/datacollectorName"
+            	            android:layout_width="wrap_content"
+            	            android:layout_height="wrap_content"
+            	            android:text="DataCollectorName"
+            	            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            	        <TextView
+            	            android:id="@+id/datacollectorOrganisation"
+            	            android:layout_width="wrap_content"
+            	            android:layout_height="wrap_content"
+            	            android:text="organisation"
+            	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            	        <TextView
+            	            android:id="@+id/datacollectorStreet"
+            	            android:layout_width="wrap_content"
+            	            android:layout_height="wrap_content"
+            	            android:text="street"
+            	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            	        <TextView
+            	            android:id="@+id/datacollectorPostal"
+            	            android:layout_width="wrap_content"
+            	            android:layout_height="wrap_content"
+            	            android:text="postalcode, city suburb"
+            	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            	        <TextView
+            	            android:id="@+id/datacollectorCountry"
+            	            android:layout_width="wrap_content"
+            	            android:layout_height="wrap_content"
+            	            android:text="Country"
+            	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            	        <TextView
+            	            android:id="@+id/datacollectorPhone"
+            	            android:layout_width="wrap_content"
+            	            android:layout_height="wrap_content"
+            	            android:text="phone"
+            	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            	        <TextView
+            	            android:id="@+id/datacollectorFax"
+            	            android:layout_width="wrap_content"
+            	            android:layout_height="wrap_content"
+            	            android:text="Fax"
+            	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            	        <TextView
+            	            android:id="@+id/datacollectorEmail"
+            	            android:layout_width="wrap_content"
+            	            android:layout_height="wrap_content"
+            	            android:text="email"
+            	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            	        <TextView
+            	            android:id="@+id/datacollectorWebsite"
+            	            android:layout_width="wrap_content"
+            	            android:layout_height="wrap_content"
+            	            android:text="Website"
+            	            android:textAppearance="?android:attr/textAppearanceSmall" />
+            	    </LinearLayout>
+            	</LinearLayout>
+
+            	<LinearLayout
+                	android:id="@+id/linearLayout6"
+                	android:layout_width="fill_parent"
+                	android:layout_height="wrap_content"
+                	android:orientation="vertical" >
+
+	                <TextView
+	                    android:id="@+id/textView1"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="@string/description"
+	                    android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	                <TextView
+	                    android:id="@+id/questionnaireInfo"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:text="Small Text"
+	                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            	</LinearLayout>
+            	
+			    <CheckBox
+			        android:id="@+id/acceptAGB"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:text="@string/acceptagb" />
+			
+			    <TextView
+			        android:id="@+id/agblink"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/agblink"
+			        android:textAppearance="?android:attr/textAppearanceMedium" />
+			
+			    <Button
+			        android:id="@+id/startbuttonX"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:text="@string/startsurvey" />
+			
+			    <LinearLayout
+			        android:id="@+id/resetLayout"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:orientation="vertical" >
+			
+			        <TextView
+			            android:id="@+id/alreadyDone"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="TextView" />
+			
+			    </LinearLayout>
+    
+            </LinearLayout>
+        </ScrollView>
+	</LinearLayout>
+</LinearLayout>

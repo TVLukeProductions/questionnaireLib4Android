@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, questionnaireActivity!</string>
+    <string name="app_name">Questionnaire</string>
+    <string name="answer">Answers</string>
+    <string name="startsurvey">Start</string>
+    <string name="description">Description</string>
+	<string name="acceptagb">Accept the terms and conditions</string>
+	<string name="agblink">Terms and Conditions</string>
+	<string name="send">Send</string>
+    
+</resources>

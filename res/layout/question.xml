@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/questionnaireName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sample Physical Activity Questionnaire"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+      	<TextView
+	        android:id="@+id/sectionName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Medium Text"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/questionNumber"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:textColor="@android:color/black"
+            android:text="01"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:textColor="@android:color/black"
+            android:text="I currently participate in moderate physical activity."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/answer"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:id="@+id/answerfield"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"  >
+
+            <LinearLayout
+                android:id="@+id/answerLayoutX"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" 
+                android:orientation="vertical" >
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:id="@+id/answerLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal" >
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+				 <LinearLayout
+				        android:id="@+id/linearLayout3"
+				        android:layout_width="73pt"
+				        android:layout_height="wrap_content"
+				        android:layout_gravity="center" >
+				
+				        <LinearLayout
+				            android:id="@+id/linearLayout4"
+				            android:layout_width="wrap_content"
+				            android:layout_height="fill_parent" >
+				
+				
+				            <ImageButton
+				                android:id="@+id/prevousButton"
+				                android:layout_width="55dp"
+				                android:layout_height="55dp"
+				                android:src="@drawable/arrowleft" />
+				
+				
+				            <ImageButton
+				                android:id="@+id/nextButton"
+				                android:layout_width="55dp"
+				                android:layout_height="55dp"
+				                android:src="@drawable/arrowright" />
+				
+				        </LinearLayout>
+				
+				    </LinearLayout>
+            </LinearLayout>
+            
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
